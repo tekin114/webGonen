@@ -1,0 +1,311 @@
+/* reset browser styles */
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1.2;
+}
+
+ol {
+    padding-left: 1.4em;
+    list-style: decimal;
+}
+
+ul {
+    padding-left: 1.4em;
+    list-style: square;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* end reset browser styles */
+body{
+	margin-left : 110px;
+	margin-right : 110px;
+	
+
+}
+#banner{
+	display : block;
+	background-position : center;
+	background-color: #0a8f0a;
+	height : 300px;
+	width :98%;
+	border : 5px inset gray;
+}
+#banner h1{
+	position: relative;
+	top: 15px;
+	font-family : Tahoma, Geneva, sans-serif;
+	font-weight : normal;
+	font-size : 40px;
+	text-align : center;
+	margin : 0;
+	color: white;
+	font-size : 300%;
+	
+}
+
+
+#banner ul {
+	float : left;
+	left : 60%;
+	padding-top : 40px;
+	margin-left : -50px;
+	position : relative;	
+}
+#banner ul li{
+	float : left;
+	list-style-type : none;
+	margin-left : 30px;
+	position: relative;
+	left : -70%;
+}
+#banner ul li a{
+	display : inline-block;
+	background-color : white;
+	text-decoration : none;
+	color : #252625;
+	height: 35px;
+	width : 180px;
+	text-align : center;
+	padding-top : 15px;
+	border-radius : 25px;
+	box-shadow : 10px 5px 5px gray;
+}
+
+
+div.leftbox {
+	display : inline-block;
+	background-color : #d0f5d0;
+	float : left;
+	width : 47%;
+	height : 400px;
+	padding : 10px;
+	border : 5px outset ;
+}
+div.leftbox h1{
+	color : black;
+	text-align : left;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size : 40px;
+}
+div.leftbox h2{
+	color : black;
+	text-align : left;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size : 30px;
+}
+div.leftbox p{
+	color : black;
+	padding : 5px;
+	border : 5px solid #429642;
+	text-align : left;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size : 20px;
+}
+div.rightbox img{
+	height: 280px;
+    width: 80%;
+	float: left;
+	border-top = 10px ;
+   
+}
+div.rightbox{
+	display : inline-block;
+	background-color : #d0f5d0;
+	vertical-align : top;
+	float : left;
+	width : 47%;
+	height : 400px;
+	padding : 10px;
+	border : 5px outset;
+}
+div.rightbox h2{
+	color : black;
+	text-align : left;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size : 30px;
+}
+div.rightbox a {
+	color : black;
+	padding : 5px;
+	text-align : left;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size : 20px;
+}
+footer {
+	display : inline-block;
+	background-color :#0a8f0a;
+	width : 96%;
+	height : 130px;
+	padding : 15px;
+	border : 5px outset;
+}
+footer h3{
+	color :black;
+	text-align : left;
+	font-family : Tahoma, Geneva, sans-serif;
+	font-size : 80%;
+}
+#machines{
+	background-color :#aef2ae;
+	border : 5px solid black;
+	width : 98%;
+	
+}
+#machines h1{
+	color : black;
+	text-align : center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size : 25px;
+	padding : 15px;
+
+}
+figure {
+	display : inline-block;
+	vertical-align : top;
+	margin-top : 20px;
+	margin-left: 60px;
+    margin-right: 60px;
+}
+figure img {
+	border-style : solid;
+	border-width : 3px;	
+}
+figcaption{
+	text-align : center;
+	font-family : Tahoma, Geneva, sans-serif;
+	font-weight : bold;
+	color : black;
+	margin : 10px 0px 0px 0px;
+}
+#louer{
+	background-color :#d0f5d0;
+	border : 2px solid black;
+	
+}
+#louer h1{
+	color :black;
+	text-align : left;
+	font-family : Tahoma, Geneva, sans-serif;
+	font-size : 100%;
+	padding : 5px;
+	
+}
+#louer p{
+color :black;
+	text-align : left;
+	font-family : Tahoma, Geneva, sans-serif;
+	font-size : 80%;
+	padding : 5px;
+} 
+form{
+	
+	vertical-align : top;
+	border : 3px dashed black;
+	margin-top : 5px;
+	margin-bottom: 5px;
+	background-color : #d4d6d4;
+}

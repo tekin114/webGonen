@@ -1,0 +1,85 @@
+<!DOCTYPEhtml>
+<html lang='fr'>
+	<head>
+		<meta charset="utf-8"/>
+		<title> Heavy Rent</title>
+		<link href="HRcssStyles.css" rel="stylesheet">
+		
+	</head>
+	<body>
+	<header>
+		<div id="banner">
+            <h1>Heavy Rent</h1>
+			<h1>location de machine lourde</h1>
+            <nav>
+				<ul>
+					<li>
+						<a href="index.html">Accueil</a>
+					</li>
+					<li>
+						<a href="HeavyRentGalerie.html">Nos Machines</a>
+					</li>
+					<li>
+						<a href="location.html">Location</a>
+					</li>
+				
+				</ul>
+			
+			</nav>
+		</div>
+	</header>
+	<div id="louer">
+		<h1>Envi de louer un véhicule lourd ?</h1>
+		<p>Remplisez le formulaire ci-dessous pour rentrer en contact avec nous dans les plus bref délai, vous pouvez tout aussi nous appeler via le 0489 38 99 55 ou via email: Hrent@gmail.com</p>
+	</div>
+	<form class="contact" action="result.php" method="POST">
+		
+			<p>
+				<label class="gauche" for="nom">Nom :</label>
+				<input type="text" class="boiteInput" name="nom" id="nom">
+			</p>
+			
+			<p>	
+				<label class="gauche" for="prenom">Prénom :</label>
+				<input type="text" class="boiteInput" name="prénom" id="prenom">
+			</p>
+			<p>
+				<label class="gauche" for="nomVehicule">Nom du véhicule :</label>
+				<input type="text " class="boiteInput" name="nomVehicule" id="nomVehicule">
+			</p>
+			
+			<p>
+				<label class="gauche" for="mail">Email :</label>
+				<input type="email" class="mail" name="mail" id="mail">
+			</p>
+			
+			<p>
+				<label class="gauche" for="choix">Faites un choix :</label>
+				<select name="choix" id="choix">
+					<option value="question">Question</option>
+					<option value="com">Commentaire</option>
+				</select>
+			</p>
+			
+			<p>
+				<label class="gauche" for="commentaires"></label>
+				<textarea class="boiteInput" name="commentaires" id="commentaires"></textarea> 
+			</p>
+			
+			<div class="buttons">
+				<input type="submit" class="button" value="Envoyer">
+				<input type="button" class="button" value="Annuler">
+			</div>
+	  	</form>
+	</body>
+	<footer>
+		<h3>A propos</h3>
+			<p>En opération depuis 1995</p>
+			<p>Une entreprise familial</p>
+			<h3>Contact</h3>
+			<p>numéro de tel : 0489 38 99 55</p>
+			<p>email : Hrent@gmail.com</p>
+		
+	</footer>
+</html>
+	

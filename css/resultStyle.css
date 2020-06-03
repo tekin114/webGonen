@@ -1,0 +1,10 @@
+body{
+	background : #0b5c12
+}
+p{
+	color : white;
+	text-align : center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size : 25px;
+	font-weight : bold;
+}
